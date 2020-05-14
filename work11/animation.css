@@ -1,0 +1,97 @@
+@keyframes green1{
+    0%{width: 50px;}
+    100%{width: 665px;}
+}
+@keyframes yellow1{
+    0%{width: 50px;}
+    100%{width: 665px;}
+}
+@keyframes blue1{
+    0% {left:15px; top:170px;}
+    25% {left:630px; top:170px;}
+    50% {left:630px; top:240px;}
+    75% {left:15px; top:240px;}
+    100% {left:15px; top:170px;}
+}
+.big{
+    margin: auto;
+    width: 700px;
+    height: 300px;
+    background-color: silver;
+    border: solid 1px black;
+    position: relative;
+}
+.first{
+    height: 50px;
+    width: 50px;
+    border: solid 1px red;
+    background-color: green;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    animation-name: green1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.second{
+    height: 50px;
+    width: 50px;
+    border: solid 1px blue;
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 15px;
+    animation-name: yellow1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.third{
+    height: 50px;
+    width: 50px;
+    border: solid 1px red;
+    background-color: blue;
+    position: absolute;
+    top: 170px;
+    left: 15px;
+    animation-name: blue1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.blackf{
+    position: absolute;
+    height: 1px;
+    width: 670px;
+    border: solid 1px black;
+    background-color: black;
+    top: 20px;
+    left: 13px;
+}
+.blacks{
+    position: absolute;
+    height: 1px;
+    width: 670px;
+    border: solid 1px black;
+    background-color: black;
+    top: 90px;
+    left: 13px;
+}
+.blackth{
+    position: absolute;
+    height: 1px;
+    width: 670px;
+    border: solid 1px black;
+    background-color: black;
+    top: 160px;
+    left: 13px;
+}
+.black{
+    position: absolute;
+    height: 1px;
+    width: 500px;
+    border: solid 1px black;
+    background-color: black;
+    top: 230px;
+    left: 98px;
+}

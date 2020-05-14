@@ -1,0 +1,17 @@
+@keyframes box{
+    0% {left:0px; top:0px;}
+    20% {left:1200px; top:0px;}
+    40% {left:1200px; top:480px;}
+    60% {left:0px; top:480px;}
+    80% {left:0px; top:0px;}
+    100% {left: 1200px; top: 480px;}
+}
+.anime{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border: black 1px solid;
+    background-color: blue;
+    animation-name: box;
+    animation-duration: 10s;
+}

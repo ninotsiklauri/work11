@@ -1,0 +1,67 @@
+@font-face{
+    font-family: unicode;
+    src: url(font/3d_unicode.ttf);
+}
+@font-face{
+    font-family: mtavruli;
+    src: url(font/bpg_extrasquare_mtavruli_2009.ttf);
+}
+@font-face{
+    font-family: nuskha;
+    src: url(font/bpg_nuskha_modern.ttf);
+}
+.big{
+    margin: auto;
+    border: black 2px solid;
+    background-color: silver;
+    width: 800px;
+    min-height: 260px;
+    position: relative;
+}
+.first{
+    font-family: unicode;
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    border: solid 1px;
+    top: 20px;
+    left: 97px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second{
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    border: solid 1px;
+    top: 92px;
+    left: 97px;
+    background-color: yellow;
+    text-align: center;
+    font-family: mtavruli;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third{
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    border: solid 1px;
+    top: 166px;
+    left: 97px;
+    background-color: red;
+    font-family: nuskha;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
